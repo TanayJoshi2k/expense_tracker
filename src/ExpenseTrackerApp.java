@@ -6,6 +6,12 @@ import javax.swing.table.DefaultTableModel;
  */
 public class ExpenseTrackerApp {
 
+  /**
+   * Main entry point of the program. Initializes a view, adds UI components -
+   * tableModel, input fields, button.
+   * Attaches click action listener to the button, performs validation and creates a new
+   * transaction if validation is
+   */
   public static void main(String[] args) {
 
     // Create MVC components
