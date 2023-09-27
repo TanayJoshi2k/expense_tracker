@@ -9,8 +9,9 @@ public class ExpenseTrackerApp {
   /**
    * Main entry point of the program. Initializes a view, adds UI components -
    * tableModel, input fields, button.
-   * Attaches click action listener to the button, performs validation and creates a new
-   * transaction if validation is
+   * Attaches click action listener to the button, performs validation and creates
+   * a new transaction if validation check passes else pops up error dialog box.
+   * Updates UI to display newly added transaction with the previous ones
    */
   public static void main(String[] args) {
 
